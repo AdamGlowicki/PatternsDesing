@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb24983-d060-46b3-a398-2592fd433e89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightLeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/Mian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/NewYorkFlightBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/BigHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/SmallHouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adamglowicki/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../observer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../singleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../singleton/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -18,26 +26,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
@@ -48,20 +49,12 @@
                 <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
                 <element signature="e#653#654#0" expanded="true" />
                 <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
                 <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
                 <element signature="e#921#922#0" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,32 +63,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseDirector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/SmallHouseBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/BigHouseBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -103,12 +123,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightDirector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/NewYorkFlightBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/Mian.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -129,18 +204,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseDirector.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/house/SmallHouseBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightLeg.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/NewYourkFlightBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/NewYorkFlightBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightDirector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/Mian.java" />
       </list>
     </option>
   </component>
@@ -196,6 +270,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="adamglowicki" type="462c0819:PsiDirectoryNode" />
+              <item name="FlightLeg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buildre" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adamglowicki" type="462c0819:PsiDirectoryNode" />
               <item name="house" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -205,6 +288,9 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,6 +303,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adamglowicki.FlightLeg.Mian" />
+      <module name="buildre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adamglowicki.FlightLeg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Mian" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -233,17 +339,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26399395" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.400982" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.32974428" />
@@ -276,22 +383,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightLeg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        <state relative-caret-position="120">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
@@ -302,41 +444,105 @@
             <element signature="e#486#487#0" expanded="true" />
             <element signature="e#518#519#0" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
             <element signature="e#653#654#0" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
             <element signature="e#784#785#0" expanded="true" />
             <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
             <element signature="e#921#922#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/BigHouseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/HouseDirector.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/house/SmallHouseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/NewYorkFlightBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/FlightDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamglowicki/FlightLeg/Mian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>

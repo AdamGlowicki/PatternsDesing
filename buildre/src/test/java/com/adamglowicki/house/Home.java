@@ -7,6 +7,15 @@ public class Home {
     private String roof;
     private String doors;
     private String garage;
+    private String windows;
+
+    public String getWindows() {
+        return windows;
+    }
+
+    public void setWindows(String windows) {
+        this.windows = windows;
+    }
 
     public String getWalls() {
         return walls;
