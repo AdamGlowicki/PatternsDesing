@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5037db9e-0d2e-4523-9900-ccb841cd62f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/InfantryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/InfantryUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/MechanizedUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/Rifleman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/UnitInfantryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/UnitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/BlueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/RedFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../buildre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../buildre/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pattern/InfantryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pattern/MechanizedFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pattern/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pattern/UnitInfantryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pattern/UnitMechanizedFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../observer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../singleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../singleton/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -28,34 +29,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/InfantryFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/UnitInfantryFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/BlueFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/RedFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Tank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
@@ -98,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/InfantryUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -147,22 +152,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/pattern/Unit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pattern/Rifleman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pattern/Tank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pattern/UnitType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pattern/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pattern/UnitFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pattern/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pattern/InfantryUnit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pattern/MechanizedUnit.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/MechanizedFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/UnitMechanizedFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/Tank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/BlueFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/RedFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pattern/Main.java" />
       </list>
     </option>
   </component>
@@ -219,6 +219,9 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pattern" />
@@ -261,7 +264,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -284,6 +287,38 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/UnitInfantryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/UnitMechanizedFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/MechanizedFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/UnitType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Rifleman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -297,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
@@ -306,31 +341,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/UnitType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/BlueFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/UnitInfantryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/InfantryUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
@@ -357,10 +378,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/InfantryFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/RedFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
